@@ -179,3 +179,70 @@ import pyautogui as pg
 
 
 
+
+
+import pyautogui as pg
+# #scroll functions
+# pg.sleep(3)
+# pg.scroll(-100)
+# pg.sleep(3)
+# pg.scroll(100)
+
+
+
+# #keyboard function
+# pg.sleep(2)
+# pg.write('123')
+# pg.press('enter')
+
+# pg.write('ek char ke bad doosre char ko type hone me 25s second  ka time lega',interval=0.25) #total type hone me 25s second  ka time lega
+# pg.press('enter')
+
+# # automatic google login
+# pg.sleep(5)
+# pg.write('https://bit.ly/3G8MxRp', interval=0.10)
+# pg.press('enter')
+# pg.moveTo(x=906, y=476)
+# pg.sleep(3)
+# pg.click()
+# pg.sleep(3)
+# pg.write('qd9qb4i3',interval=0.10)
+# pg.press('Enter')
+# pg.press('a', presses=5) #for pressing a 5 times
+
+
+
+
+# pg.keyDown('ctrl') #ye ctrl ko dabaaye rkhega
+# pg.press('a')
+# pg.keyUp('ctrl') #ye ctrl ko dabaana bnd kr dega
+# pg.sleep(3)
+# pg.keyDown('shift')
+# pg.press('left', presses=3)
+# pg.keyUp('shift')
+
+
+
+
+# #hotkeys (more preferable than keyup and keydown
+# pg.sleep(3)
+# pg.hotkey('ctrl','a')
+
+
+
+
+#message box
+# pg.alert(text='Alert', title='alert box', button='ok')
+# pg.confirm(text='Alert', title='alert box', buttons=['ok', 'cancel'])
+# pg.prompt(text='input', title='input box', default='username')
+# pg.password(text='input', title='input box', default='username',mask='*')
+
+
+
+# #screenshot
+# pg.sleep(3)
+# # pg.screenshot("screenshot.png", region=(top,left,height,width))
+# pg.screenshot("screenshot.png", region=(0,0,300,400))
+
+
+
